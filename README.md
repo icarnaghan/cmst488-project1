@@ -4,7 +4,7 @@ Starter template files for project 1 to setup a basic web server including route
 
 ## Installation
 
-This project requires Node.js (https://nodejs.org/en/) the NPM to install.
+This project requires Node.js (https://nodejs.org/en/) with NPM to install.
 
 ```bash
 npm i
