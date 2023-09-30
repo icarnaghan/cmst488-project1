@@ -1,4 +1,4 @@
-// TODO: Initialize variables (set port variable, and import http, httpStatus, fs modules)
+// TODO: Initialize variables (set port variable, and import http, httpStatus, fs, path modules)
 
 // Import resources for API
 const resources = require("./models/resources");
