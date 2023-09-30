@@ -19,6 +19,7 @@ const server = http.createServer(function (req, res) {
   }
 
   // Implement static file system and serve /views/index.html
+  // ** OPTIONAL: Setup dynamic reading and serving of other static files (Hint: see lesson 6.1 Wexxler)
   else if (req.url === "/views/index.html") {
     fs.readFile(path.join(__dirname, "views", "index.html"), (error, data) => {
       if (error) {
